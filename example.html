@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="d3/d3.min.js"></script>
+		<script src="src/predictCharts.js"></script>
+		<link href="css/c3.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="predictChart" style="height:500px;width:600px;"></div>
+		<script>
+		
+				var data={
+							x:['xData',1,2,3,4,5,6],
+							y:['yData',
+								['data1', 30, 200, 100, 400, 150, 250],
+								['data2', 50, 20, 10, 40, 15, 25]
+							],
+							predict:[7,8,9],
+							secondAxis:false,
+							type:'bar',
+							groups: [
+										['data1', 'data2']
+							],
+							//types:{'data2':'spline'}
+				};
+				
+			predictCharts("#predictChart",data);
+		</script>
+	</body>
+</html>
