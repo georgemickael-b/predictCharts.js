@@ -59,7 +59,7 @@ Charting library which predicts and graphs based on known input data (regression
     <td>type:'bar'|'line'|'spline'|'area'|'area-spline'|'scatter'</td><td></td>
   </tr>
   <tr>
-    <td>type:{'variable-1-name':'type','variable-2-name':'type',..} </td><td>Incase you want different types for different variables.Key value pairs, where 'type' can be any one of the above types.</td>
+    <td>types:{'variable-1-name':'type','variable-2-name':'type',..} </td><td>Incase you want different types for different variables.Key value pairs, where 'type' can be any one of the above types.</td>
   </tr>
   <tr>
     <td>secondAxis:true/false </td><td> Optional.Can be set in case of multiple dependent variables.</td>
